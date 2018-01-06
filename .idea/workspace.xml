@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b237dd01-2550-4929-a094-4f2da2655824" name="Default" comment="" />
+    <list default="true" id="b237dd01-2550-4929-a094-4f2da2655824" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/fee.php" afterPath="$PROJECT_DIR$/api/fee.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,34 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="smsNotify.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/smsNotify.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fee.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/fee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="27" />
+            <state relative-caret-position="78">
+              <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding>
-                <marker date="1515234034577" expanded="true" signature="678:757" ph="select id fr... sms_order" />
+                <marker date="1515236373900" expanded="true" signature="678:757" ph="select id fr... sms_order" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/lib/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="184" column="49" lean-forward="false" selection-start-line="184" selection-start-column="41" selection-end-line="184" selection-end-column="49" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -51,6 +33,9 @@
       <find>curl</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -58,9 +43,9 @@
         <option value="$PROJECT_DIR$/api/lib/function.php" />
         <option value="$PROJECT_DIR$/api/notify.php" />
         <option value="$PROJECT_DIR$/api/feeNotify.php" />
-        <option value="$PROJECT_DIR$/api/fee.php" />
         <option value="$PROJECT_DIR$/api/sms.php" />
         <option value="$PROJECT_DIR$/api/smsNotify.php" />
+        <option value="$PROJECT_DIR$/api/fee.php" />
       </list>
     </option>
   </component>
@@ -77,6 +62,7 @@
     <option name="width" value="1260" />
     <option name="height" value="880" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -148,12 +134,12 @@
       <workItem from="1515148092051" duration="2205000" />
       <workItem from="1515200374710" duration="7905000" />
       <workItem from="1515208837065" duration="20000" />
-      <workItem from="1515225923977" duration="8735000" />
+      <workItem from="1515225923977" duration="9706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19601000" />
+    <option name="totallyTimeSpent" value="20572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -163,7 +149,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -268,19 +254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/sms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="69" column="69" lean-forward="false" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="69" />
-          <folding>
-            <marker date="1515233442513" expanded="true" signature="678:716" ph="select id fr... sms_order" />
-            <marker date="1515233442513" expanded="true" signature="678:717" ph="select id fr... sms_order" />
-            <marker date="1515233442513" expanded="true" signature="678:730" ph="select id fr... sms_order" />
-            <marker date="1515233442513" expanded="true" signature="678:753" ph="select id fr... sms_order" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/feeNotify.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -305,12 +278,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/sms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <marker date="1515233442513" expanded="true" signature="678:716" ph="select id fr... sms_order" />
+            <marker date="1515233442513" expanded="true" signature="678:717" ph="select id fr... sms_order" />
+            <marker date="1515233442513" expanded="true" signature="678:730" ph="select id fr... sms_order" />
+            <marker date="1515233442513" expanded="true" signature="678:753" ph="select id fr... sms_order" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/fee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="27" />
+        <state relative-caret-position="78">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding>
-            <marker date="1515234034577" expanded="true" signature="678:757" ph="select id fr... sms_order" />
+            <marker date="1515236373900" expanded="true" signature="678:757" ph="select id fr... sms_order" />
           </folding>
         </state>
       </provider>

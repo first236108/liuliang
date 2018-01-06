@@ -29,9 +29,9 @@ try {
         exit;
     }
 
-    $appkey = 'cc2007bd4fc245e29c90497f425fda8f';
+    $appkey = 'd53a21e613654c238d7de3b0fc5fe7b4';
     $timestamp = time();
-    $username = 'linshuo';
+    $username = 'linshuohf';
     $url = 'http://liuliang.llqwt.com/api/feesubmit';
 
     #充值话费
