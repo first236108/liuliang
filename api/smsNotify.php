@@ -6,10 +6,10 @@ include_once(BASEDIR . "/lib/DB.class.php");
 include_once(BASEDIR . "/lib/function.php");
 $file = BASEDIR . "/log/smslog.txt";
 date_default_timezone_set('PRC');
-var_dump(date('Y:m:d h:i:s',time()));
-$data = $_POST;
+var_dump(date('Y:m:d h:i:s', time()));
+$data = file_get_contents('php://input');
 
-file_put_contents($file, json_encode($data) . date('Y:m:d h:i:s',time()) . PHP_EOL);
+file_put_contents($file, json_encode($data) . date('Y:m:d h:i:s', time()) . PHP_EOL);
 if (empty($data)) {
     exit;
 }

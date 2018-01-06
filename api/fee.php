@@ -7,7 +7,6 @@ include_once(BASEDIR . "/lib/function.php");
 
 try {
 
-    #获取流量包
     $mobile = $_POST['mobile'];
 
     if (!preg_match("/^1[3456789][0-9]{9}$/", $mobile)) {
@@ -23,7 +22,7 @@ try {
 
     $_DB = new DB($dbset);
     $ip = getTrueIp();
-    $is_repeat = $_DB->getValue("select id from sms_order where (phone=$mobile or ip='" . $ip . "') and status=1");
+    $is_repeat = $_DB->getValue("select id from sms_order where (phone=$mobile or ip='" . $ip . "') and status=0");
     if ($is_repeat) {
         echo json_encode(['ret' => 2, 'msg' => '暂不支持重复获取']);
         exit;
@@ -58,7 +57,7 @@ try {
         'create_time' => date('Y-m-d h:i:s'),
         'ip'          => $ip
     ]);
-    var_dump($result);exit;
+
     echo json_encode(['ret' => 0, 'msg' => '充值成功', 'order' => $result->orderno, 'fee' => $fee]);
 
 } catch (Exception $e) {
