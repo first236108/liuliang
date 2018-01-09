@@ -67,7 +67,7 @@ try {
         'mobile'    => $mobile,
         'mealtag'   => $min->mealtag,
         'timestamp' => $timestamp,
-        'notifyurl' => 'http://sg546e.natappfree.cc/api/smsNotify.php',
+        'notifyurl' => 'http://www.lszhejiugou.xyz/api/smsNotify.php',
         'digest'    => strtolower(MD5($username . $mobile . $appkey . $timestamp))
     ];
 

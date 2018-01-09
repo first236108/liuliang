@@ -4,19 +4,22 @@ header('Access-Control-Allow-Origin:*');
 define('BASEDIR', dirname(__FILE__));
 include_once(BASEDIR . "/lib/DB.class.php");
 include_once(BASEDIR . "/lib/function.php");
-$file = BASEDIR . "/log/smslog.txt";
 date_default_timezone_set('PRC');
-var_dump(date('Y:m:d h:i:s', time()));
-$data = file_get_contents('php://input');
 
-file_put_contents($file, json_encode($data) . date('Y:m:d h:i:s', time()) . PHP_EOL);
+$file = BASEDIR . "/log/smslog.txt";
+
+$data = file_get_contents('php://input');
 if (empty($data)) {
     exit;
 }
 
-$data = json_decode(urldecode($data));
+$data = urldecode($data)[0];
+file_put_contents($file, $data . date('Y:m:d h:i:s', time()) . PHP_EOL);
+
+$data=json_decode($data);
 
 if ($data->errorcode != 0) {
+	echo "0";
     exit;
 }
 $row = [

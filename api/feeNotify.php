@@ -8,16 +8,20 @@ include_once(BASEDIR . "/lib/function.php");
 date_default_timezone_set('PRC');
 $file = BASEDIR . "/log/feelog.txt";
 
-$data = $_POST;
+$data = file_get_contents('php://input');
 
-file_put_contents($file, json_encode($data) . date('Y:m:d h:i:s') . PHP_EOL);
 if (empty($data)) {
     exit;
 }
 
-$data = json_decode(urldecode($data));
+$data = urldecode($data);
+file_put_contents($file, $data . date('Y:m:d h:i:s') . PHP_EOL);
+
+
+$data = json_decode($data)[0];
 
 if ($data->errorcode != 0) {
+	echo "0";
     exit;
 }
 $row = [
